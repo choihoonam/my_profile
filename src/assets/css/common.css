@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/************************************************
+	reset
+************************************************/
+*,*::before,*::after { margin:0; padding:0; box-sizing:border-box;}
+body,input,button,select,input,textarea,h1,h2,h3,h4,h5,h6,pre{ font: 14px/1.6 "GodoM", "godoRoundedR", "Helvetica Neue", Helvetica, sans-serif; color:#dadada;}
+img { vertical-align:top; border:0 none;}
+fieldset, abbr, acronym { border:0 none;}
+dl,dt,dd,ul,ol,li { list-style:none;}
+em,address { font-style:normal;}
+legend,hr { display:none;} 
+a { color:#fff; text-decoration:none;}
+caption, legend, .blind { overflow:hidden; position:absolute; top:-9999px; left:-9999px; width:1px; height:1px; font-size:1px;}
+sup { font-size:13px;}
+strong { font-weight:normal; font-family:"GodoB"}
+table { width:100%; border-spacing:0; border:0; table-layout:fixed;}
+.labelst{ position:absolute; top:-5000px; right:0px; overflow:hidden;}
+label, input[type=button], input[type=submit], input[type=image], button { border:0; cursor:pointer; outline:none;}
+input, select { outline:none;}
+input[type="text"],
+input[type="password"],
+input[type="number"] { width:100%; height:41px; padding:2px 15px; border:1px solid #cccccc; font-size:18px;}
+input[type="radio"],
+input[type="checkbox"] { width:18px; height:18px; margin:0 3px; vertical-align:middle;}
+textarea { display:block; width:100%; padding:10px 15px; border:1px solid #cccccc; resize: none; outline:none;}
+select { width:100%; height:41px; padding:0 5px 0 10px; border:1px solid #cccccc; font-size:18px;
+	/*-webkit-appearance:button;
+	-moz-appearance:button;
+	-ms-appearance:button;
+	-o-appearance:button;
+	appearance:button;}
+select::-ms-expand { display:none;*/}
+
+::-webkit-input-placeholder { color:#bebebe !important;}
+::-moz-placeholder { color:#bebebe !important;}
+:-ms-input-placeholder { color:#bebebe !important;}
+:-moz-placeholder { color:#bebebe !important;}
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]::-ms-clear { display:none; width:0; height:0;}
+input[type=number]::-ms-reveal { display:none; width:0; height:0;}
+
+
+/************************************************
+	position
+************************************************/
+.txtL {text-align: left !important;}
+.txtR {text-align: right !important;}
+.txtC {text-align: center !important;}
+.vt { vertical-align: top !important; }
+.vm { vertical-align: middle !important; }
+.fl { float: left !important; }
+.fr { float: right !important; }
+.oh { overflow:hidden;}

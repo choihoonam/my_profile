@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'GodoM';
+  src: url('../fonts/GodoM.eot');
+  src: url('../fonts/GodoM.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/GodoM.woff') format('woff'),
+       url('../fonts/GodoM.otf') format('opentype'),
+       url('../fonts/GodoM.svg#GodoM') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GodoB';
+  src: url('../fonts/GodoB.eot');
+  src: url('../fonts/GodoB.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/GodoB.woff') format('woff'),
+       url('../fonts/GodoB.otf') format('opentype'),
+       url('../fonts/GodoB.svg#GodoB') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'godoRoundedL';
+  src: url('../fonts/godoRoundedL.eot');
+  src: url('../fonts/godoRoundedL.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/godoRoundedL.woff') format('woff'),
+       url('../fonts/godoRoundedL.otf') format('opentype'),
+       url('../fonts/godoRoundedL.svg#godoRoundedL') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'godoRoundedR';
+  src: url('../fonts/godoRoundedR.eot');
+  src: url('../fonts/godoRoundedR.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/godoRoundedR.woff') format('woff'),
+       url('../fonts/godoRoundedR.otf') format('opentype'),
+       url('../fonts/godoRoundedR.svg#godoRoundedR') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
