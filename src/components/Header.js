@@ -7,8 +7,8 @@ export default class Header extends Component {
                 <div className="inner">
                     <h1>init( );</h1>
                     <ul>
-                        <li><span className="token var">const</span> <span className="token keyword">name</span> = <span className="token string">'choi hoo nam'</span></li>
-                        <li><span className="token var">const</span> <span className="token keyword">role</span> = <span className="token string">'publishing'</span></li>
+                        <li><span className="token var">const</span> <span className="token keyword">name</span> = <span className="token string">'Choi, Hoonam'</span></li>
+                        <li><span className="token var">const</span> <span className="token keyword">role</span> = <span className="token string">'Publishing'</span></li>
                         <li>
                             <span className="token var">const</span> <span className="token keyword">technologies</span> = [
                             <span className="token string"> 'HTML5' </span>,

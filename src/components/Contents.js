@@ -36,7 +36,7 @@ export default class Contents extends Component {
                     $mainTab.addClass('tabFixed');
                 }else{				
                     $mainTab.removeClass('tabFixed');
-                    $('#prjTit').text('Project( );');
+                    $('#prjTit').text('project( );');
                 }
 
                 $('.tabCon').each(function(index){
@@ -102,7 +102,7 @@ export default class Contents extends Component {
 
                 <div className="mainTab">
                     <div className="inner">
-                        <p className="tit" id="prjTit">Project( );</p>
+                        <p className="tit" id="prjTit">project( );</p>
                         <button className="btnTabMemu" onClick={this.openMenu}>
                             <span className="slice1"></span>
                             <span className="slice2"></span>
@@ -170,13 +170,13 @@ export default class Contents extends Component {
                             </div>
                             <Slider {...settings} className="prjView mobile slide">
                                 <div className="item">
-                                    <video className="video" src={require('../assets/images/prj2019_02_01.mp4')} muted controls></video>
+                                    <video className="video" src={require('../assets/images/prj2019_02_01.mp4')} poster={require('../assets/images/prj2019_02_01.png')} muted controls></video>
                                 </div>
                                 <div className="item">
-                                    <video className="video" src={require('../assets/images/prj2019_02_02.mp4')} muted controls></video>
+                                    <video className="video" src={require('../assets/images/prj2019_02_02.mp4')} poster={require('../assets/images/prj2019_02_02.png')} muted controls></video>
                                 </div>
                                 <div className="item">
-                                    <video className="video" src={require('../assets/images/prj2019_02_03.mp4')} muted controls></video>
+                                    <video className="video" src={require('../assets/images/prj2019_02_03.mp4')} poster={require('../assets/images/prj2019_02_03.png')} muted controls></video>
                                 </div>
                             </Slider>	
                         </div>
@@ -231,8 +231,9 @@ export default class Contents extends Component {
                                 <div className="item">
                                     <video className="video" src={require('../assets/images/prj2017_01_01.mp4')} poster={require('../assets/images/prj2017_01_01.png')} muted controls></video>
                                 </div>
-                                <div className="item"><img src={require('../assets/images/prj2017_01_01.png')} alt="" /></div>
-                                <div className="item"><img src={require('../assets/images/prj2017_01_02.png')} alt="" /></div>
+                                <div className="item">
+                                    <video className="video" src={require('../assets/images/prj2017_01_02.mp4')} poster={require('../assets/images/prj2017_01_02.png')} muted controls></video>
+                                </div>
                                 <div className="item"><img src={require('../assets/images/prj2017_01_03.png')} alt="" /></div>
                                 <div className="item"><img src={require('../assets/images/prj2017_01_04.png')} alt="" /></div>
                             </Slider>
@@ -260,14 +261,18 @@ export default class Contents extends Component {
                                 </ul>
                             </div>
                             <Slider {...settings} className="prjView pc slide">
-                                <div className="item"><img src={require('../assets/images/prj2018_01_01.png')} alt="" /></div>
+                                <div className="item">
+                                    <video className="video" src={require('../assets/images/prj2018_01_01.mp4')} poster={require('../assets/images/prj2018_01_01.png')} muted controls></video>
+                                </div>
                                 <div className="item"><img src={require('../assets/images/prj2018_01_02.png')} alt="" /></div>
                                 <div className="item"><img src={require('../assets/images/prj2018_01_03.png')} alt="" /></div>
                                 <div className="item"><img src={require('../assets/images/prj2018_01_04.png')} alt="" /></div>
                                 <div className="item"><img src={require('../assets/images/prj2018_01_05.png')} alt="" /></div>
                             </Slider>
                             <Slider {...settings} className="prjView mobile slide">
-                                <div className="item"><img src={require('../assets/images/prj2018_01_01_m.png')} alt="" /></div>
+                                <div className="item">
+                                    <video className="video" src={require('../assets/images/prj2018_01_01_m.mp4')} poster={require('../assets/images/prj2018_01_01_m.png')} muted controls></video>
+                                </div>
                                 <div className="item"><img src={require('../assets/images/prj2018_01_02_m.png')} alt="" /></div>
                             </Slider>
                         </div>
