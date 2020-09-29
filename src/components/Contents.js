@@ -4,8 +4,15 @@ import $ from 'jquery';
 window.$ = window.jQuery = require('jquery');
 
 export default class Contents extends Component {
+    componentWillMount() {
+        this.mainTab();
+    }
     componentDidMount() {
         this.mainTab();
+        window.addEventListener("resize", this.mainTab);
+    }
+    componentWillUnmount() {
+        window.removeEventListener("resize", this.mainTab);
     }
     mainTab = () => {
         const $mainTab = $('.mainTab');
@@ -96,7 +103,7 @@ export default class Contents extends Component {
             autoplay: false,
             edgeFriction: 0,
             dots: true,
-        };
+        }
         return (
             <div className="contents">
 
