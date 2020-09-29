@@ -231,11 +231,11 @@ export default class Contents extends Component {
                                 <div className="item">
                                     <video className="video" src={require('../assets/images/prj2017_01_01.mp4')} poster={require('../assets/images/prj2017_01_01.png')} muted controls></video>
                                 </div>
-                                <div className="item">
-                                    <video className="video" src={require('../assets/images/prj2017_01_02.mp4')} poster={require('../assets/images/prj2017_01_02.png')} muted controls></video>
-                                </div>
+                                <div className="item"><img src={require('../assets/images/prj2017_01_02.png')} alt="" /></div>
                                 <div className="item"><img src={require('../assets/images/prj2017_01_03.png')} alt="" /></div>
-                                <div className="item"><img src={require('../assets/images/prj2017_01_04.png')} alt="" /></div>
+                                <div className="item">
+                                    <video className="video" src={require('../assets/images/prj2017_01_04.mp4')} poster={require('../assets/images/prj2017_01_04.png')} muted controls></video>
+                                </div>
                             </Slider>
                         </div>
                     </div>
